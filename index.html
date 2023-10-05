@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<div class="heading"><h1>THIS IS A CALCULATOR</h1></div>
+
+<body>
+
+    <div class="calc">
+        <div class="calc-screen-container">
+            <div id="calc-screen" class="calc-screen">
+                <div class="result-container">
+                    <p class="result">0</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="calc-container">
+            <div class="calc-body"><button id="button7" class="button" onclick="screen(7)">7</button></div>
+            <div class="calc-body"><button id="button8" class="button" onclick="screen(8)">8</button></div>
+            <div class="calc-body"><button id="button9" class="button" onclick="screen(9)">9</button></div>
+            <div class="calc-body"><button id="button/" class="button" onclick="calc('/')">/</button></div>
+            <div class="calc-body"><button id="button4" class="button" onclick="screen(4)">4</button></div>
+            <div class="calc-body"><button id="button5" class="button" onclick="screen(5)">5</button></div>
+            <div class="calc-body"><button id="button6" class="button" onclick="screen(6)">6</button></div>
+            <div class="calc-body"><button id="buttonx" class="button" onclick="calc('x')">x</button></div>
+            <div class="calc-body"><button id="button1" class="button" onclick="screen(1)">1</button></div>
+            <div class="calc-body"><button id="button2" class="button" onclick="screen(2)">2</button></div>
+            <div class="calc-body"><button id="button3" class="button" onclick="screen(3)">3</button></div>
+            <div class="calc-body"><button id="button-" class="button" onclick="calc('-')">-</button></div>
+            <div class="calc-body"><button id="button0" class="button" onclick="screen(0)">0</button></div>
+            <div class="calc-body"><button id="buttonC" class="button" onclick="clearScreen()">C</button></div>
+            <div class="calc-body"><button id="button=" class="button" onclick="equals()">=</button></div>
+            <div class="calc-body"><button id="button+" class="button" onclick="calc('+')">+</button></div>
+
+        </div>
+    </div>
+    <script src="calculation.js"></script>
+</body>
+
+</html>
